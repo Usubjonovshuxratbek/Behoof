@@ -44,6 +44,8 @@ function Choice() {
         </div>
       </section>
 
+
+
       <section className="choice-res">
         <div className="choicerotate"></div>
         <div className="container">
@@ -53,7 +55,7 @@ function Choice() {
               <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
-                
+
               >
                 <SwiperSlide>
                   <div className="product">

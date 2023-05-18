@@ -1,9 +1,8 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import "./NewsRes.css";
-import { Pagination } from "swiper";
+import "./NewsSlider.css";
 import './News.scss'
 import Icon from '../../assets/img/icon.png'
 import Watch from '../../assets/img/watch.png'
@@ -83,12 +82,8 @@ function News() {
                         <div className="news__main">
                             <div className="cards">
                                 <Swiper
-                                    slidesPerView={3}
+                                    slidesPerView={1.5}
                                     spaceBetween={30}
-                                    pagination={{
-                                        clickable: true,
-                                    }}
-                                    modules={[Pagination]}
                                     className="mySwiper"
                                 >
                                     <SwiperSlide>
@@ -296,6 +291,7 @@ function News() {
                         </div>
                     </div>
                 </div>
+                <Reviews />
             </section>
         </>
     )

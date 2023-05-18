@@ -89,6 +89,8 @@ function SliderItem() {
                 </div>
             </div>
         </div>
+
+        
         <div className='slideritem-res'>
             <div className="slideritem-top">
                 <div>

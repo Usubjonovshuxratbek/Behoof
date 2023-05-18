@@ -6,7 +6,7 @@
         margin-top: 52px;
 
         .big {
-            width: 889px;
+            width: 825px;
             height: 308px;
             background: #F2F5F9;
             background-image: url(../../assets/img/social-bg.svg);
@@ -18,9 +18,9 @@
             h2 {
                 font-style: normal;
                 font-weight: 800;
-                font-size: 48px;
+                font-size: 44px;
                 line-height: 72px;
-                padding: 40px 40px 32px 40px;
+                padding: 35px 40px 32px 40px;
 
                 span {
                     color: #FF4D4D;
@@ -122,8 +122,9 @@
                     padding: 16px 20px;
                     background: #FF4D4D;
                     border-radius: 8px;
+                    display: inline-block;
                     text-align: center;
-                    margin: 12px 0 0 12px;
+                    margin: 4px 0 0 12px;
                 }
             }
     
@@ -160,7 +161,8 @@
                     padding: 16px 20px;
                     background: #FF4D4D;
                     border-radius: 8px;
-                    margin: 12px 0 0 12px;
+                    display: inline-block;
+                    margin: 4px 0 0 12px;
                     text-align: center;
                 }
     
