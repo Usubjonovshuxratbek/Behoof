@@ -54,7 +54,7 @@ function Choice() {
             <ul className='choice-list'>
               <Swiper
                 slidesPerView={3}
-                spaceBetween={30}
+                spaceBetween={20}
 
               >
                 <SwiperSlide>

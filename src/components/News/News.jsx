@@ -82,7 +82,7 @@ function News() {
                         <div className="news__main">
                             <div className="cards">
                                 <Swiper
-                                    slidesPerView={1.5}
+                                    slidesPerView={1.6}
                                     spaceBetween={30}
                                     className="mySwiper"
                                 >

@@ -63,7 +63,7 @@
     display: none;
 }
 
-@media (min-width: 0) and (max-width: 375px) {
+@media (min-width: 0) and (max-width: 428px) {
     .choice {
         display: none;
     }
@@ -80,12 +80,12 @@
                 font-style: normal;
                 font-weight: 600;
                 font-size: 16px;
-                padding-top: 19px;
+                padding: 19px 0 0 0;
                 color: #0F1113;
             }
 
             .choice-list {
-                margin-left: -30px;
+                margin-left: 0;
             }
 
             .swiper-slide {

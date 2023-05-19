@@ -6,6 +6,7 @@ import OurGoal from '../../components/OurGoal/OurGoal'
 import Social from '../../components/Social/Social'
 import News from '../../components/News/News'
 import Footer from '../../components/Footer/Footer'
+import Bar from '../../components/Bar/Bar'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Social />
       <News />
       <Footer />
+      <Bar />
     </div>
   )
 }

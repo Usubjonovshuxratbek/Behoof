@@ -68,7 +68,7 @@ function Reviews() {
                         <div className="reviews__main">
                             <div className="cards">
                                 <Swiper
-                                    slidesPerView={1.6}
+                                    slidesPerView={1}
                                     spaceBetween={30}
                                     className="mySwiper"
                                 >
