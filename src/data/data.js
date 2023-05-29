@@ -1,7 +1,52 @@
 export const HomeChoice = [
     {
         id: 1,
-        img: `${'../assets/img/phone.png'}`,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
+        name: `Смартфоны`
+    },
+    {
+        id: 2,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
+        name: `Ноутбуки`
+    },
+    {
+        id: 3,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
+        name: `Планшеты`
+    },
+    {
+        id: 4,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
+        name: `Умные часы`
+    },
+    {
+        id: 5,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
+        name: `Игровые приставки`
+    },
+    {
+        id: 6,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
+        name: `Наушники`
+    },
+    {
+        id: 7,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
+        name: `колонки`
+    },
+    {
+        id: 8,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
+        name: `Аксесуары`
+    },
+    {
+        id: 1,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
+        name: `Смартфоны`
+    },
+    {
+        id: 1,
+        img: `https://github.com/Usubjonovshuxratbek/behoofProject/blob/main/src/assets/img/mac.png?raw=true`,
         name: `Смартфоны`
     },
 ]

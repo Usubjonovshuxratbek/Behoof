@@ -34,7 +34,7 @@ function Footer() {
                     </li>
                     <li className='footer-item'>
                         <Link className='footer-item-link footer-item-link1'>Популярные категории</Link>
-                        <Link className='footer-item-link'>Смартфоны</Link>
+                        <Link to='/about' className='footer-item-link'>Смартфоны</Link>
                         <Link className='footer-item-link'>Teteras electricas</Link>
                         <Link className='footer-item-link'>Стиральные машины</Link>
                         <Link className='footer-item-link'>Телевизоры</Link>

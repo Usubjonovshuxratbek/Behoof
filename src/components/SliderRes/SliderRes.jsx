@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 import "./SliderRes.css";
-import { Grid, Pagination } from "swiper";
 import SliderItem from "../SliderItem/SliderItem";
 export default function MySliderRes() {
     return (

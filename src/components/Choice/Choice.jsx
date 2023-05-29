@@ -4,12 +4,20 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./ChoiceRes.css";
 import Mac from '../../assets/img/mac.png'
+import Smartpon from '../../assets/img/smartpon.png'
+import Planshet from '../../assets/img/planshet.png'
+import Watch from '../../assets/img/watch.png'
+import Play from '../../assets/img/play.png'
+import Naushnik from '../../assets/img/naushnik.png'
+import Kalonka from '../../assets/img/kalonka.png'
+import Acsesuar from '../../assets/img/acsesuar.png'
 import './Choice.scss'
 import MySlider from '../Slider/Slider';
 import MySliderRes from "../SliderRes/SliderRes";
+import { HomeChoice } from "../../data/data";
+import { Link } from "react-router-dom";
 
 function Choice() {
-  const arr = [1, 2, 3, 4, 5, 6, 7, 8]
 
   return (
     <>
@@ -20,12 +28,12 @@ function Choice() {
             <h2>Лучший выбор</h2>
             <ul className='choice-list'>
               {
-                arr?.map((item, index) => (
+                HomeChoice?.map((item, index) => (
                   <li key={index} className='choice-item'>
                     <div>
                       <img src={Mac} alt="" />
                     </div>
-                    <p>Ноутбуки</p>
+                    <p>{item.name}</p>                    
                   </li>
                 ))
               }
@@ -60,9 +68,9 @@ function Choice() {
                 <SwiperSlide>
                   <div className="product">
                     <div className="product-bg">
-                      <img src={Mac} alt="" />
+                      <img src={Smartpon} alt="" />
                     </div>
-                    <p>Ноутбуки</p>
+                    <p>Смартфоны</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -76,49 +84,49 @@ function Choice() {
                 <SwiperSlide>
                   <div className="product">
                     <div className="product-bg">
-                      <img src={Mac} alt="" />
+                      <img src={Planshet} alt="" />
                     </div>
-                    <p>Ноутбуки</p>
+                    <p>Планшеты</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="product">
                     <div className="product-bg">
-                      <img src={Mac} alt="" />
+                      <img src={Watch} alt="" />
                     </div>
-                    <p>Ноутбуки</p>
+                    <p>Умные часы</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="product">
                     <div className="product-bg">
-                      <img src={Mac} alt="" />
+                      <img src={Play} alt="" />
                     </div>
-                    <p>Ноутбуки</p>
+                    <p>Игровые приставки</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="product">
                     <div className="product-bg">
-                      <img src={Mac} alt="" />
+                      <img src={Naushnik} alt="" />
                     </div>
-                    <p>Ноутбуки</p>
+                    <p>Наушники</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="product">
                     <div className="product-bg">
-                      <img src={Mac} alt="" />
+                      <img src={Kalonka} alt="" />
                     </div>
-                    <p>Ноутбуки</p>
+                    <p>колонки</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="product">
                     <div className="product-bg">
-                      <img src={Mac} alt="" />
+                      <img src={Acsesuar} alt="" />
                     </div>
-                    <p>Ноутбуки</p>
+                    <p>Аксесуары</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
